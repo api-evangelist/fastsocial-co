@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-FastSocial is a commercial service that sells Instagram followers, likes, views, and comments. It offers one‑time packs and subscription plans with slow‑drip delivery, no password required. The platform targets social media influencers and marketers looking to boost engagement quickly. FastSocial provides an API for ordering and managing these services, with documentation hosted on its own site.
+FastSocial is a SaaS platform that sells Instagram followers, likes, views, and comments with drip‑feed delivery. It offers a public API for retrieving Instagram profile and post data, targeting marketers and social media managers seeking growth automation.
 
-**Areas:** Social Media · Marketing · API · Instagram · FastSocial
+**Areas:** Social Media · Marketing · Instagram · API · SaaS
 
 ## FastSocial on APIs.io
 
@@ -74,30 +74,11 @@ Everything profiled for FastSocial is published on APIs.io rather than in this r
 
 ### APIs (1)
 
-- [FastSocial Profiles API](https://apis.io/apis/fastsocial-co/fastsocial-co-profiles-api/) — The Profiles API from FastSocial — 1 operation(s) for profiles.
+- [Instagram Data API](https://apis.io/apis/fastsocial-co/instagram-data-api/) — FastSocial Instagram Data API provides read‑only access to public Instagram profile and post data.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
-
-#### Agentic access (1)
-
-Which operations an agent can call, which act, and which need a human in the loop.
-
-- [Fastsocial Co Agentic Access](https://apis.io/agentic-access/fastsocial-co/fastsocial-co-agentic-access/)
-
-#### JSON Schema (2)
-
-The data models the API reads and writes.
-
-- [Meta](https://apis.io/schemas/fastsocial-co/fastsocial-co-meta/)
-- [Profile](https://apis.io/schemas/fastsocial-co/fastsocial-co-profile/)
-
-#### Governance rules (1)
-
-Spectral rulesets for the provider's contracts.
-
-- [FastSocial API Rules](https://apis.io/rules/fastsocial-co/fastsocial-co-rules/)
 
 #### Security (2)
 
@@ -118,32 +99,32 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 39.0** — thin · rubric 0.27.0 · scored 2026-11-07
+**Kin Score 19.7** — emerging · rubric 0.27.0 · scored 2026-11-08
 
 | Facet | Score |
 |---|---|
-| Discoverability | 73.2 |
-| Contract quality | 49.6 |
-| Contract governance | 79.1 |
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 16.4 |
 | Operational transparency | 10.5 |
-| Developer ergonomics | 9.5 |
+| Developer ergonomics | 16.0 |
 | Access clarity | 21.1 |
 
-**Agent readiness 46.3** — agent-ready (gated down from agent-native)
+**Agent readiness 25.1** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | yes |
-| Agentic Access | unknown |
+| Spec Presence | — |
+| Agentic Access | — |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
 | Error Semantics | — |
-| OpenAPI Examples | verified |
+| OpenAPI Examples | — |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
